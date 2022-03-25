@@ -9,8 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'merry': ['Merriweather',  ...defaultTheme.fontFamily.serif],
-        'custom': ['Grand Hotel',  ...defaultTheme.fontFamily.serif]
-
+        // 'custom': ['Grand Hotel',  ...defaultTheme.fontFamily.serif]
       },
     },
   },

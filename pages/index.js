@@ -11,30 +11,30 @@ export default function Home() {
       <div className="relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10">
         <div className="max-w-md mx-auto">
           {/* LOGO */}
-          <div className="flex  items-center font-bold text-4xl">
+          <div className="flex flex-col sm:flex-row font-merry items-center font-bold text-4xl">
             <img src="/logo.png" className="h-28" alt="Tailwind Play" />
-            <div>
+            <div className="text-3xl  md:text-4xl">
               Corner Cafe Co.
-              <p className="text-sm text-right text-yellow-900 font-medium">
+              <p className="text-xs sm:text-sm text-center sm:text-right text-yellow-900 font-medium">
                 Drink the delight
               </p>
             </div>
           </div>
 
-          <div className="mt-3 text-xl">
+          <div className="mt-3 font-merry text-md sm:text-xl">
             <p>Are you tired of getting coffee late?</p>
             <p>We have the solution</p>
           </div>
 
-          <div className="my-2 font-bold text-lg text-yellow-900">
+          <div className="my-2 font-merry font-bold text-md sm:text-lg text-yellow-900">
             <p>Corner cafe offering you - A cup of coffee in seconds!</p>
           </div>
 
           <div className="text-3xl">
-            <p className="font-custom">Time is precious like our coffee!</p>
+            <img src="/slogan.png" />
           </div>
           <div className="divide-y divide-gray-300/50"></div>
-          <div className="pt-8 text-base leading-7 font-semibold">
+          <div className="pt-8 text-base font-merry leading-7 font-semibold">
             <div>
              <p className="text-xl border-b my-2">Our team</p>   
             </div>
@@ -45,8 +45,8 @@ export default function Home() {
                   src="https://avatars.githubusercontent.com/u/102219762?v=4"
                 />
                 <div className="mx-2">
-                  <h6 className="text-lg leading-3 font-semibold">Akhil E</h6>
-                  <p className="text-gray-500 font-medium">Founder</p>
+                  <h6 className="text-sm sm:text-lg leading-3 font-semibold">Akhil E</h6>
+                  <p className="text-gray-500 text-xs sm:text-sm font-medium">Founder</p>
                 </div>
               </li>
               <li className="flex items-center rounded-lg p-2">
@@ -55,8 +55,8 @@ export default function Home() {
                   src="https://avatars.githubusercontent.com/u/101086460?v=4"
                 />
                 <div className="mx-2">
-                  <h6 className="text-lg leading-3 font-semibold">SD Paval</h6>
-                  <p className="text-gray-500 font-medium">Founder</p>
+                  <h6 className="text-sm sm:text-lg leading-3 font-semibold">SD Paval</h6>
+                  <p className="text-gray-500 text-xs sm:text-sm font-medium">Founder</p>
                 </div>
               </li>
             </ul>
