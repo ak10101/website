@@ -55,8 +55,8 @@ export default function Home() {
             network or to breach security or authentication measures without
             proper authorisation, (3) attempting to interfere with service to
             any user, host or network, including, without limitation, via means
-            of submitting a virus or "Trojan horse" to the Website, overloading,
-            "flooding", "mail bombing" or "crashing", or (4) sending unsolicited
+            of submitting a virus or &quot;Trojan horse&quot; to the Website, overloading,
+            &quot;flooding&quot;, &quot;mail bombing&quot; or &quot;crashing&quot;, or (4) sending unsolicited
             electronic mail, including promotions and/or advertising of products
             or services. Violations of system or network security may result in
             civil or criminal liability. The business and / or its associate
