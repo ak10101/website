@@ -99,7 +99,7 @@ export default function Home() {
             any goods or/and data or/and information or/and services purchased
             or/and obtained or/and messages received or/and transactions entered
             into through or/and from the service or/and resulting from
-            unauthorized access to or/and alteration of user's transmissions
+            unauthorized access to or/and alteration of user&apos;s transmissions
             or/and data or/and arising from any other matter relating to the
             service, including but not limited to, damages for loss of profits
             or/and use or/and data or other intangible, even if cornercafe.shop
@@ -116,7 +116,7 @@ export default function Home() {
             <a className="mx-1" href="https://cornercafe.shop/">
               Company
             </a>
-            's total liability to the User for all damages or/and losses or/and
+            &apos;s total liability to the User for all damages or/and losses or/and
             causes of action exceed the amount paid by the User to{" "}
             <a className="mx-1" href="https://cornercafe.shop/">
               Company
