@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -60,6 +61,10 @@ export default function Home() {
                 </div>
               </li>
             </ul>
+          </div>
+          <div className="flex items-center text-xs my-3 space-x-3">
+          <Link href="/tc"><a className="mx-2">Terms and Conditions</a></Link>
+          <Link href="/rc"><a className="mx-2">Return and Cancellation Policy</a></Link>
           </div>
         </div>
       </div>
